@@ -1,0 +1,103 @@
+.footer-index {
+    background: rebeccapurple;
+    padding-bottom: 96px;
+    padding-top: 96px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.footer-index2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.footer-studio-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 72px;
+}
+
+.footer-logo-ind {
+    font-weight: 800;
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    line-height: 1.16;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--main-team-color, #f4f4fd);
+    display: flex;
+    align-self: center;
+}
+
+.footer-studio-ind {
+    color: var(--main-text-button, #4d5ae5);
+}
+
+.footer-text-ind {
+    font-weight: 400;
+    line-height: 1.5;
+    font-size: 16px;
+    letter-spacing: 0.02em;
+    width: 264px;
+    color: var(--main-footer-text, #e7e9fc);
+    margin-top: 16px;
+}
+
+.footer-soc-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer-soc-text {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 25px;
+    letter-spacing: 0.02em;
+    color: white;
+    margin-bottom: 16px;
+}
+
+.footer-soc-list {
+    display: flex;
+    gap: 16px;
+}
+
+
+.footer-soc-item {
+    width: 40px;
+    height: 40px;
+}
+
+.footer-soc-link {
+    background: rgba(255, 255, 255, 0.1);
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier (0.4, 0, 0.2, 1);
+
+}
+
+.footer-soc-link:hover {
+    background: #31d0aa;
+}
+
+.footer-soc-link:focus {
+    background: #31d0aa;
+}
+
+.footer-soc-icon {
+    width: 24px;
+    fill: #f4f4fd;
+    height: 24px;
+}
